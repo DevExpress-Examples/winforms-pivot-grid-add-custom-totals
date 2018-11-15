@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/HowToAddCustomTotals/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/HowToAddCustomTotals/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/HowToAddCustomTotals/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/HowToAddCustomTotals/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to: Add Custom Totals
 
 
