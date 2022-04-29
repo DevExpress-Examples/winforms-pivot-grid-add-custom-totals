@@ -17,14 +17,9 @@ Namespace HowToBindToMDB
 
 		Public Sub New()
 			InitializeComponent()
+			salesPersonDataAdapter.Fill(salesPersonDataTable)
 			pivotGridControl1.DataSource = salesPersonDataTable
 		End Sub
 
-		Private Sub Window_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
-			salesPersonDataAdapter.Fill(salesPersonDataTable)
-			Dim filter(14) As Object
-			Array.Copy(fieldProductName.GetUniqueValues(), filter, filter.Length)
-			fieldProductName.FilterValues.ValuesIncluded = filter
-		End Sub
 	End Class
 End Namespace
