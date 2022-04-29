@@ -1,25 +1,22 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Data
-Imports System.Data.OleDb
 Imports System.Windows
-Imports DevExpress.Xpf.PivotGrid
 Imports HowToBindToMDB.NwindDataSetTableAdapters
-Imports System
 
 Namespace HowToBindToMDB
-	''' <summary>
-	''' Interaction logic for MainWindow.xaml
-	''' </summary>
-	Partial Public Class MainWindow
-		Inherits Window
-		Private salesPersonDataTable As New NwindDataSet.SalesPersonDataTable()
-		Private salesPersonDataAdapter As New SalesPersonTableAdapter()
 
-		Public Sub New()
-			InitializeComponent()
-			salesPersonDataAdapter.Fill(salesPersonDataTable)
-			pivotGridControl1.DataSource = salesPersonDataTable
-		End Sub
+    ''' <summary>
+    ''' Interaction logic for MainWindow.xaml
+    ''' </summary>
+    Public Partial Class MainWindow
+        Inherits Window
 
-	End Class
+        Private salesPersonDataTable As NwindDataSet.SalesPersonDataTable = New NwindDataSet.SalesPersonDataTable()
+
+        Private salesPersonDataAdapter As SalesPersonTableAdapter = New SalesPersonTableAdapter()
+
+        Public Sub New()
+            Me.InitializeComponent()
+            salesPersonDataAdapter.Fill(salesPersonDataTable)
+            Me.pivotGridControl1.DataSource = salesPersonDataTable
+        End Sub
+    End Class
 End Namespace
