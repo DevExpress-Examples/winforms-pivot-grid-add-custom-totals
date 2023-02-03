@@ -3,9 +3,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# How to: Add Custom Totals
+# Pikvot Grid for WinForms - Add Custom Totals
 
-The following example demonstrates how to add custom totals for a particular pivot grid field.
+The following example demonstrates how to add custom totals for a particular Pivot Grid field.
 
 ![Pivot Grid](./image/pivotgrid.png)
 
