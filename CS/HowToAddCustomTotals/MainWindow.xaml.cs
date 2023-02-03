@@ -20,9 +20,6 @@ namespace HowToBindToMDB {
 
         private void Window_Loaded(object sender, RoutedEventArgs e) {
             salesPersonDataAdapter.Fill(salesPersonDataTable);
-            object[] filter = new object[15];
-            Array.Copy(fieldProductName.GetUniqueValues(), filter, filter.Length);
-            fieldProductName.FilterValues.ValuesIncluded = filter;
         }
     }
 }

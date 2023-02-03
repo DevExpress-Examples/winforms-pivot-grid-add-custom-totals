@@ -21,9 +21,6 @@ Namespace HowToBindToMDB
 
         Private Sub Window_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
             salesPersonDataAdapter.Fill(salesPersonDataTable)
-            Dim filter As Object() = New Object(14) {}
-            Array.Copy(Me.fieldProductName.GetUniqueValues(), filter, filter.Length)
-            Me.fieldProductName.FilterValues.ValuesIncluded = filter
         End Sub
     End Class
 End Namespace
