@@ -1,6 +1,5 @@
 Imports System.Windows
 Imports HowToBindToMDB.NwindDataSetTableAdapters
-Imports System
 
 Namespace HowToBindToMDB
 
