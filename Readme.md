@@ -5,13 +5,13 @@
 
 # Pivot Grid for WPF - Add Custom Totals
 
-The following example demonstrates how to add custom totals for a particular Pivot Grid field.
+The following example demonstrates how to add custom totals for a particular Pivot Grid field:
 
 ![Pivot Grid](./image/pivotgrid.png)
 
 ## Examle Overview
 
-In this example, four different totals are added for the _Category Name_ row field: Average, Sum, Min and Max. For this, add the `PivotGridCustomTotal` objects to the [PivotGridField.CustomTotals](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomTotals?p=netframework) collection and set the [PivotGridField.TotalsVisibility](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.TotalsVisibility?p=netframework) property to `FieldTotalsVisibility.CustomTotals`.
+In this example, four different totals are added for the _Category Name_ row field: Average, Sum, Min, and Max. For this, add the `PivotGridCustomTotal` objects to the [PivotGridField.CustomTotals](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomTotals?p=netframework) collection and set the [PivotGridField.TotalsVisibility](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.TotalsVisibility?p=netframework) property to `FieldTotalsVisibility.CustomTotals`.
 
 ## Files to Review
 
