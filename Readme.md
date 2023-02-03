@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Pivot Grid for WinForms - Add Custom Totals
+# Pivot Grid for WPF - Add Custom Totals
 
 The following example demonstrates how to add custom totals for a particular Pivot Grid field.
 
